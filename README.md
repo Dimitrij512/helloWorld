@@ -20,4 +20,12 @@ Good night, World! в 23:00 - 06:00
 Код должен содержать все возможные юнит-тесты и создавать читабельный лог файл.
 
 
-Выводящиеся на консоль сообщения должны быть получены из message resource и зависеть от системной локали пользователя. Сделать перевод на русский язык.	
+Выводящиеся на консоль сообщения должны быть получены из message resource и зависеть от системной локали пользователя. Сделать перевод на русский язык.
+
+
+
+[Посилання на сторінку збірки програми](https://circleci.com/gh/Dimitrij512/helloWorld/1#tests/containers/0)
+
+> Details of collection
+![Details of collection](https://github.com/Dimitrij512/helloWorld/tree/master/images/screenshot-details.png)
+	
