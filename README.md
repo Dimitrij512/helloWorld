@@ -27,5 +27,6 @@ Good night, World! в 23:00 - 06:00
 [Посилання на сторінку збірки програми](https://circleci.com/gh/Dimitrij512/helloWorld/1#tests/containers/0)
 
 > Details of collection
-![Details of collection](https://github.com/Dimitrij512/helloWorld/tree/master/images/screenshot-details.png)
+
+![logo](https://github.com/Dimitrij512/helloWorld/raw/master/images/screenshot-details.png)
 	
