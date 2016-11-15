@@ -30,7 +30,7 @@ Good night, World! в 23:00 - 06:00
 
 ![logo](https://github.com/Dimitrij512/helloWorld/raw/master/images/screenshot-details.png)
 
-> Starting container
+> Starting the build
 
 ![logo](https://github.com/Dimitrij512/helloWorld/raw/master/images/screenshot-startin_container.png)
 
