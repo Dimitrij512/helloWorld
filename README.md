@@ -29,4 +29,20 @@ Good night, World! в 23:00 - 06:00
 > Details of collection
 
 ![logo](https://github.com/Dimitrij512/helloWorld/raw/master/images/screenshot-details.png)
+
+> Starting container
+
+![logo](https://github.com/Dimitrij512/helloWorld/raw/master/images/screenshot-startin_container.png)
+
+> Dependency
+
+![logo](https://github.com/Dimitrij512/helloWorld/raw/master/images/screenshot-dependency.png)
+![logo](https://github.com/Dimitrij512/helloWorld/raw/master/images/screenshot-dependency2.png)
+
+> Testing
+
+![logo](https://github.com/Dimitrij512/helloWorld/raw/master/images/screenshot-test.png)
+![logo](https://github.com/Dimitrij512/helloWorld/raw/master/images/screenshot-test2.png)
+![logo](https://github.com/Dimitrij512/helloWorld/raw/master/images/screenshot-test3.png)
+
 	
