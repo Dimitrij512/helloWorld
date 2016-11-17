@@ -9,76 +9,20 @@ public class TestServiceTime {
 
 	private ServiceTime servTime;
 
-	@Test
-	public void testPartOfTimeNight1() {
-		servTime = servTime.newPartOfTime("23:00:00");
-		Assert.assertEquals("NIGHT", servTime.getPartOfDay());
-	}
+	private String partOfTimeAndDays[][] = { { "23:00:00", "23:00:01", "05:59:59", "19:00:00", "19:00:01", "22:59:59", "09:00:00", "09:00:01", "18:59:59", "06:00:00", "06:00:01", "08:59:59" },
+			{ "night", "night", "night", "evening", "evening", "evening", "day", "day", "day", "morning", "morning", "morning" } };
 
 	@Test
-	public void testPartOfTimeNight2() {
-		servTime = servTime.newPartOfTime("23:00:01");
-		Assert.assertEquals("NIGHT", servTime.getPartOfDay());
+	public void testPartOfTime() {
+		int timeTest = 0;
+		int partOfDayTest = 1;
+		for (int i = 0; i < partOfTimeAndDays.length; i++) {
+			for (int j = 0; j < partOfTimeAndDays[i].length; j++) {
+				String time = partOfTimeAndDays[timeTest][j];
+				String partOfDay = partOfTimeAndDays[partOfDayTest][j];
+				servTime = servTime.newPartOfTime(time);
+				Assert.assertEquals(partOfDay, servTime.getPartOfDay());
+			}
+		}
 	}
-
-	@Test
-	public void testPartOfTimeNight3() {
-		servTime = servTime.newPartOfTime("05:59:59");
-		Assert.assertEquals("NIGHT", servTime.getPartOfDay());
-	}
-
-	@Test
-	public void testPartOfTimeEvening1() {
-		servTime = servTime.newPartOfTime("19:00:00");
-		Assert.assertEquals("EVENING", servTime.getPartOfDay());
-	}
-
-	@Test
-	public void testPartOfTimeEvening2() {
-		servTime = servTime.newPartOfTime("19:00:01");
-		Assert.assertEquals("EVENING", servTime.getPartOfDay());
-	}
-
-	@Test
-	public void testPartOfTimeEvening3() {
-		servTime = servTime.newPartOfTime("22:59:59");
-		Assert.assertEquals("EVENING", servTime.getPartOfDay());
-	}
-
-	@Test
-	public void testPartOfTimeDay1() {
-		servTime = servTime.newPartOfTime("09:00:00");
-		Assert.assertEquals("DAY", servTime.getPartOfDay());
-	}
-
-	@Test
-	public void testPartOfTimeDay2() {
-		servTime = servTime.newPartOfTime("09:00:01");
-		Assert.assertEquals("DAY", servTime.getPartOfDay());
-	}
-
-	@Test
-	public void testPartOfTimeDay3() {
-		servTime = servTime.newPartOfTime("18:59:59");
-		Assert.assertEquals("DAY", servTime.getPartOfDay());
-	}
-
-	@Test
-	public void testPartOfTimeMorning1() {
-		servTime = servTime.newPartOfTime("06:00:01");
-		Assert.assertEquals("MORNING", servTime.getPartOfDay());
-	}
-
-	@Test
-	public void testPartOfTimeMorning2() {
-		servTime = servTime.newPartOfTime("06:00:01");
-		Assert.assertEquals("MORNING", servTime.getPartOfDay());
-	}
-
-	@Test
-	public void testPartOfTimeMorning3() {
-		servTime = servTime.newPartOfTime("08:59:59");
-		Assert.assertEquals("MORNING", servTime.getPartOfDay());
-	}
-
 }

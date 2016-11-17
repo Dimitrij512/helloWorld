@@ -44,16 +44,16 @@ public class ServiceTime {
 		}
 		if (current.equals(morningTime) || current.after(morningTime) && current.before(dayTime)) {
 			logger.info("made : morning, World!!!");
-			return "MORNING";
+			return "morning";
 		} else if (current.equals(dayTime) || current.after(dayTime) && current.before(eveningTime)) {
 			logger.info("made : Good day, World!");
-			return "DAY";
+			return "day";
 		} else if (current.equals(eveningTime) || current.after(eveningTime) && current.before(nightTime)) {
 			logger.info("made : Good evening, World!");
-			return "EVENING";
+			return "evening";
 		} else {
 			logger.info("made : Good night, World!");
-			return "NIGHT";
+			return "night";
 		}
 	}
 
