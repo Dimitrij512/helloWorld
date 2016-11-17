@@ -13,7 +13,6 @@ public class HelloWorld {
 	public static void main(String[] args) {
 
 		Locale localization = Locale.getDefault();
-
 		ResourceBundle resource = ResourceBundle.getBundle("MessagesBundle", localization);
 
 		ServiceTime serviceTime = new ServiceTime();

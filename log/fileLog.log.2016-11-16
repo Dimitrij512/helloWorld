@@ -1,0 +1,2 @@
+2016-11-16 21:38:57,207  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 52 - made : Good evening, World!
+2016-11-16 21:38:57,223  INFO [main] - com.dmytro.andrusiv.helloWorld.HelloWorld.main 31 - Showed evening message

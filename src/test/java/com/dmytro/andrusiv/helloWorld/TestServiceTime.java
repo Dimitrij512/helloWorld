@@ -11,7 +11,7 @@ public class TestServiceTime {
 
 	@Test
 	public void testPartOfTimeNight1() {
-		servTime = servTime.newPartOfTime("23:01:00");
+		servTime = servTime.newPartOfTime("23:00:00");
 		Assert.assertEquals("NIGHT", servTime.getPartOfDay());
 	}
 
@@ -29,7 +29,7 @@ public class TestServiceTime {
 
 	@Test
 	public void testPartOfTimeEvening1() {
-		servTime = servTime.newPartOfTime("19:01:00");
+		servTime = servTime.newPartOfTime("19:00:00");
 		Assert.assertEquals("EVENING", servTime.getPartOfDay());
 	}
 
@@ -47,7 +47,7 @@ public class TestServiceTime {
 
 	@Test
 	public void testPartOfTimeDay1() {
-		servTime = servTime.newPartOfTime("09:01:00");
+		servTime = servTime.newPartOfTime("09:00:00");
 		Assert.assertEquals("DAY", servTime.getPartOfDay());
 	}
 
@@ -65,7 +65,7 @@ public class TestServiceTime {
 
 	@Test
 	public void testPartOfTimeMorning1() {
-		servTime = servTime.newPartOfTime("06:01:01");
+		servTime = servTime.newPartOfTime("06:00:01");
 		Assert.assertEquals("MORNING", servTime.getPartOfDay());
 	}
 

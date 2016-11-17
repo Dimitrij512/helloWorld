@@ -1,16 +1,28 @@
-2016-11-15 04:38:43,039  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
-2016-11-15 04:38:43,047  INFO [main] - com.dmytro.andrusiv.helloWorld.HelloWorld.main 34 - Showed night message
-2016-11-15 04:39:00,385  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
-2016-11-15 04:39:00,393  INFO [main] - com.dmytro.andrusiv.helloWorld.HelloWorld.main 34 - Showed night message
-2016-11-15 04:40:08,712  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 49 - made : Good day, World!
-2016-11-15 04:40:08,726  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 49 - made : Good day, World!
-2016-11-15 04:40:08,729  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 49 - made : Good day, World!
-2016-11-15 04:40:08,733  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 46 - made : morning, World!!!
-2016-11-15 04:40:08,736  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 46 - made : morning, World!!!
-2016-11-15 04:40:08,739  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 46 - made : morning, World!!!
-2016-11-15 04:40:08,743  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 52 - made : Good evening, World!
-2016-11-15 04:40:08,747  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 52 - made : Good evening, World!
-2016-11-15 04:40:08,749  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 52 - made : Good evening, World!
-2016-11-15 04:40:08,752  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
-2016-11-15 04:40:08,755  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
-2016-11-15 04:40:08,757  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
+2016-11-17 01:56:47,349  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
+2016-11-17 01:56:47,359  INFO [main] - com.dmytro.andrusiv.helloWorld.HelloWorld.main 34 - Showed night message
+2016-11-17 02:00:50,428  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
+2016-11-17 02:00:50,479  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 49 - made : Good day, World!
+2016-11-17 02:00:50,482  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 49 - made : Good day, World!
+2016-11-17 02:00:50,484  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 46 - made : morning, World!!!
+2016-11-17 02:00:50,487  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 46 - made : morning, World!!!
+2016-11-17 02:00:50,491  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 46 - made : morning, World!!!
+2016-11-17 02:00:50,493  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
+2016-11-17 02:00:50,499  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 52 - made : Good evening, World!
+2016-11-17 02:00:50,501  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 52 - made : Good evening, World!
+2016-11-17 02:00:50,504  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
+2016-11-17 02:00:50,506  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
+2016-11-17 02:00:50,508  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
+2016-11-17 02:06:59,808  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
+2016-11-17 02:06:59,821  INFO [main] - com.dmytro.andrusiv.helloWorld.HelloWorld.main 33 - Showed night message
+2016-11-17 02:07:41,191  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 49 - made : Good day, World!
+2016-11-17 02:07:41,203  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 49 - made : Good day, World!
+2016-11-17 02:07:41,206  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 49 - made : Good day, World!
+2016-11-17 02:07:41,209  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 46 - made : morning, World!!!
+2016-11-17 02:07:41,212  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 46 - made : morning, World!!!
+2016-11-17 02:07:41,214  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 46 - made : morning, World!!!
+2016-11-17 02:07:41,224  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 52 - made : Good evening, World!
+2016-11-17 02:07:41,230  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 52 - made : Good evening, World!
+2016-11-17 02:07:41,236  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 52 - made : Good evening, World!
+2016-11-17 02:07:41,239  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
+2016-11-17 02:07:41,241  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!
+2016-11-17 02:07:41,243  INFO [main] - com.dmytro.andrusiv.service.ServiceTime.getPartOfDay 55 - made : Good night, World!

@@ -42,18 +42,19 @@ public class ServiceTime {
 		} catch (ParseException pe) {
 			logger.error("ERROR parsing date : " + pe);
 		}
-		if (current.after(morningTime) && current.before(dayTime)) {
+		if (current.equals(morningTime) || current.after(morningTime) && current.before(dayTime)) {
 			logger.info("made : morning, World!!!");
 			return "MORNING";
-		} else if (current.after(dayTime) && current.before(eveningTime)) {
+		} else if (current.equals(dayTime) || current.after(dayTime) && current.before(eveningTime)) {
 			logger.info("made : Good day, World!");
 			return "DAY";
-		} else if (current.after(eveningTime) && current.before(nightTime)) {
+		} else if (current.equals(eveningTime) || current.after(eveningTime) && current.before(nightTime)) {
 			logger.info("made : Good evening, World!");
 			return "EVENING";
-		} else
+		} else {
 			logger.info("made : Good night, World!");
-		return "NIGHT";
+			return "NIGHT";
+		}
 	}
 
 	public static ServiceTime newPartOfTime(String time) {
